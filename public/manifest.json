@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Adobe Dreamweaver",
-  "short_name": "Dreamweaver",
-  "description": "Adobe Dreamweaver - Ambient Sound Mixer & Focus Generator with customizable procedural soundscapes and 100% offline support.",
+  "name": "Relax & Focus - Pure Noise",
+  "short_name": "Relax & Focus",
+  "description": "Relax & Focus: Pure Noise - Ambient Sound Mixer & Focus Generator with customizable procedural soundscapes and 100% offline support.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

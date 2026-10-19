@@ -1,4 +1,4 @@
-# Adobe Dreamweaver - Ambient Sound Mixer
+# Relax & Focus - Pure Noise (Ambient Sound Mixer)
 
 > Ambient sounds to wash away distraction. High-quality procedural ambient audio mixer, sleep timer, and offline Progressive Web App (PWA).
 
@@ -10,9 +10,12 @@
 - **Custom Mixes**: Save, recall, and manage custom ambient sound combinations in local storage.
 - **100% Offline PWA**: Installable on Android, iOS, Windows, and macOS with full offline caching via Service Worker.
 
-## Live Website
-Hosted on GitHub Pages:
-[https://wasimasif761-dotcom.github.io/dreamweaver/](https://wasimasif761-dotcom.github.io/dreamweaver/)
+## GitHub Pages Deployment
+This repository is 100% self-contained and ready to publish directly on GitHub Pages:
+1. Push all files to your GitHub repository (e.g. `relax-focus` or `pure-noise`).
+2. Go to **Settings** > **Pages**.
+3. Under **Branch**, select `main` and `/ (root)`, then click **Save**.
+4. Your website will be live in minutes!
 
 ## Developer & Contact
 - **Developer**: Waseem Asif (Software Engineer & Full-Stack Developer)

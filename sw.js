@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ambient-sound-mixer-v1';
+const CACHE_NAME = 'relax-focus-pure-noise-v2';
 const PRECACHE_ASSETS = [
   './',
   './index.html',

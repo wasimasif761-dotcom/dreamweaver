@@ -1,6 +1,6 @@
 /**
- * Adobe Dreamweaver - Ambient Sound Mixer
- * Production-Ready Web Audio Engine & A Soft Murmur Layout
+ * Relax & Focus - Pure Noise (Ambient Sound Mixer)
+ * Production-Ready Web Audio Engine & Ambient Mixer
  * Author: Waseem Asif
  */
 
@@ -1012,7 +1012,7 @@
   // --- Saved Mixes ---
   function loadSavedMixes() {
     try {
-      const stored = localStorage.getItem('dreamweaver_mixes');
+      const stored = localStorage.getItem('relax_focus_mixes') || localStorage.getItem('dreamweaver_mixes');
       if (stored) {
         state.customMixes = JSON.parse(stored);
       }
@@ -1032,7 +1032,7 @@
 
     state.customMixes.unshift(mixData);
     try {
-      localStorage.setItem('dreamweaver_mixes', JSON.stringify(state.customMixes));
+      localStorage.setItem('relax_focus_mixes', JSON.stringify(state.customMixes));
     } catch (e) {}
 
     renderMixesList();
@@ -1042,7 +1042,7 @@
   function deleteCustomMix(mixId) {
     state.customMixes = state.customMixes.filter(m => m.id !== mixId);
     try {
-      localStorage.setItem('dreamweaver_mixes', JSON.stringify(state.customMixes));
+      localStorage.setItem('relax_focus_mixes', JSON.stringify(state.customMixes));
     } catch (e) {}
     renderMixesList();
     showToast('Mix deleted');
@@ -1114,8 +1114,8 @@
   function shareCurrentSoundscape() {
     updateUrlHashWithState();
     const shareUrl = window.location.href;
-    const title = 'Adobe Dreamweaver - Ambient Sound Mixer';
-    const text = 'Listen to my ambient focus soundscape on Adobe Dreamweaver:';
+    const title = 'Relax & Focus | Pure Noise';
+    const text = 'Listen to my ambient focus soundscape on Relax & Focus (Pure Noise):';
 
     if (navigator.share) {
       navigator.share({
@@ -1480,7 +1480,7 @@
     }, { once: true });
   });
 
-  window.AdobeDreamweaver = {
+  window.RelaxAndFocus = {
     state,
     setSoundVolume,
     togglePlayPause,
@@ -1489,4 +1489,5 @@
     startTimer,
     stopTimer
   };
+  window.AdobeDreamweaver = window.RelaxAndFocus;
 })();
