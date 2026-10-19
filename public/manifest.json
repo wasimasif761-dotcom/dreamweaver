@@ -1,0 +1,27 @@
+{
+  "id": "./",
+  "name": "Adobe Dreamweaver",
+  "short_name": "Dreamweaver",
+  "description": "Adobe Dreamweaver - Ambient Sound Mixer & Focus Generator with customizable procedural soundscapes and 100% offline support.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#090d16",
+  "theme_color": "#090d16",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["lifestyle", "music", "health", "utilities"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Adobe Dreamweaver",
+  "description": "Adobe Dreamweaver - Ambient Sound Mixer & Focus Generator with customizable procedural soundscapes, sleep timer, and offline PWA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
